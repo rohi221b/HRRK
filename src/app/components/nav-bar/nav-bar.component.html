@@ -1,18 +1,14 @@
 <!-- navbar.component.html -->
 <nav class="navbar">
   <div class="logo">
-    <img src="./assets/rekhraj_logo.jpg" alt="Company Logo" />
+    <img [src]="logo" alt="Company Logo" />
   </div>
   <div class="company-info">
     <h1>{{ companyName }}</h1>
   </div>
   <ul class="nav-links">
-    <li><a routerLink="/">Home</a></li>
-    <li><a routerLink="/numrushi-industries">Namrushi Industries</a></li>
-    <li><a routerLink="/rekhraj-writing">Rekhraj writing</a></li>
-    <li><a routerLink="/rekhraj-ventures">Rekhraj Ventures</a></li>
-    <li><a routerLink="/krishnai-mobility">Krishnai Mobility</a></li>
-    <li><a routerLink="/about-us">About Us</a></li>
-    <!-- Add more navigation links as needed -->
+    <li *ngFor="let link of navLinks">
+      <a [routerLink]="link.url" (click)="navigate(link)">{{ link.name }}</a>
+    </li>
   </ul>
 </nav>

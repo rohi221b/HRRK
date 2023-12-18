@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CompanyInfoComponent } from './components/company-info/company-info.component';
-import { SubcompaniesSliderComponent } from './components/subcompanies-slider/subcompanies-slider.component';
+import { SubcompaniesSliderComponent } from './home-page/subcompanies-slider/subcompanies-slider.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { NumrushiIndustriesPageComponent } from './numrushi-industries-page/numrushi-industries-page.component';
 import { RekhrajWritingPageComponent } from './rekhraj-writing-page/rekhraj-writing-page.component';
