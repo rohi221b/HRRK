@@ -7,7 +7,7 @@
     <h1>{{ companyName }}</h1>
   </div>
   <ul class="nav-links">
-    <li *ngFor="let link of navLinks">
+    <li *ngFor="let link of navLinks" [routerLinkActive]="['active-link']">
       <a [routerLink]="link.url" (click)="navigate(link)">{{ link.name }}</a>
     </li>
   </ul>
