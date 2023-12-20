@@ -1,0 +1,42 @@
+.company-info {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+
+  .container {
+    display: flex;
+
+    .labels {
+      flex: 1;
+
+      &:not(:last-child) {
+        margin-right: 20px; // Add some space between Vision and Mission labels
+      }
+
+      p {
+        margin-top: 5px; // Add a small space between label and paragraph
+      }
+    }
+  }
+
+  .labels {
+    margin-top: 15px;
+    position: relative;
+
+    .label {
+      font-weight: bold;
+      color: #555;
+    }
+
+    .line {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #ddd;
+    }
+  }
+}
