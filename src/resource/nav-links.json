@@ -1,0 +1,8 @@
+[
+  { "name": "Home", "url": "/" },
+  { "name": "Namrushi Industries", "url": "/numrushi-industries", "img": "./assets/numrushi_logo.jpg" },
+  { "name": "Rekhraj Writing", "url": "/rekhraj-writing", "img": "./assets/rekhraj_writing_logo.jpg" },
+  { "name": "Rekhraj Ventures", "url": "/rekhraj-ventures", "img": "./assets/rekhraj_ventures_logo.jpg" },
+  { "name": "Krishnai Mobility", "url": "/krishnai-mobility", "img": "https://via.placeholder.com/600.png/021/fff" },
+  { "name": "About Us", "url": "/about-us" }
+]
